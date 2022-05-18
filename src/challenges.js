@@ -49,6 +49,7 @@ function catAndMouse(mouse, cat1, cat2) {
 }
 
 // Desafio 8
+// tentar com for/of ou for/in, tentar com replace
 function fizzBuzz(arrayNumbers) {
   let arrayString = [''];
   for (let i = 0; i < arrayNumbers.length; i += 1) {
@@ -64,12 +65,25 @@ function fizzBuzz(arrayNumbers) {
   }
   return arrayString;
 }
+
 // Desafio 9
-function encode() {
-  // seu código aqui
+function encode(string) {
+  let encondedString;
+  encondedString = string.replace(/a/g, '1');
+  encondedString = encondedString.replace(/e/g, '2');
+  encondedString = encondedString.replace(/i/g, '3');
+  encondedString = encondedString.replace(/o/g, '4');
+  encondedString = encondedString.replace(/u/g, '5');
+  return encondedString;
 }
-function decode() {
-  // seu código aqui
+function decode(encodedString) {
+  let decodedString;
+  decodedString = encodedString.replace(/1/g, 'a');
+  decodedString = decodedString.replace(/2/g, 'e');
+  decodedString = decodedString.replace(/3/g, 'i');
+  decodedString = decodedString.replace(/4/g, 'o');
+  decodedString = decodedString.replace(/5/g, 'u');
+  return decodedString;
 }
 
 // Desafio 10

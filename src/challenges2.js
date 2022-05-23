@@ -26,11 +26,14 @@ function generatePhoneNumber(arrayNumbers) {
   return phoneNumber;
 }
 
-console.log(generatePhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1]));
-
 // Desafio 12
-function triangleCheck() {
-  // seu código aqui
+function triangleCheck(lineA, lineB, lineC) {
+  function compararNumeros(a, b) {
+    return a - b;
+  }
+  let array = [lineA, lineB, lineC].sort(compararNumeros);
+  if (array[2] > array[0] + array[1]) return false;
+  return true;
 }
 
 // Desafio 13

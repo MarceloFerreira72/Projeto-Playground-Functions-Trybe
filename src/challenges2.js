@@ -37,10 +37,20 @@ function triangleCheck(lineA, lineB, lineC) {
 }
 
 // Desafio 13
-function hydrate() {
-  // seu código aqui
+function justNumbers(text) {
+  let numbers = text.replace(/[^0-9]/g,'');
+  return numbers;
 }
-
+function hydrate(string) {
+  let numbersString = justNumbers(string);
+  let arrayNumbers = numbersString.split('');
+  let coupsOfWater = 0;
+  for (let i = 0; i < arrayNumbers.length; i += 1) {
+    coupsOfWater += parseInt(arrayNumbers[i], 10);
+  }
+  if (coupsOfWater === 1) return "1 copo de água";
+  return `${coupsOfWater} copos de água`;
+}
 module.exports = {
   generatePhoneNumber,
   hydrate,

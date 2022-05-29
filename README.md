@@ -19,14 +19,17 @@
   2. Em seguida entre na pasta criada e execute o comando `npm install`.
   3. Finalmente, para rodar o avaliador automático localmente no seu projeto, execute um dos comandos abaixo:
     Para executar todos os testes utilize:
-    ```bash
-    npm test
-    ```
-    ***ou***
-    Para executar um arquivo de teste específico, utilize `npm test nomeDoArquivoDeTeste`:
-    ```bash
-    npm test compareTrue
-    ```
+  ```bash
+  npm test
+  ```
+
+  ***ou***
+
+  Para executar um arquivo de teste específico, utilize `npm test nomeDoArquivoDeTeste`:
+
+  ```bash
+  npm test compareTrue
+  ```
 
   ## Considerações Importantes:
 

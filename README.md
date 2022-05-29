@@ -33,6 +33,6 @@
 
   ## Considerações Importantes:
 
-  **Este projeto diz respeito ao conhecimento que eu possuia no momento de sua execução, vou mantê-lo sem alteração para fidelizar minha evolução, se quiser saber mais do que sou capaz, entra em contato, vamo bater um papo :D**
+  **Este projeto diz respeito ao conhecimento que eu possuia no momento de sua execução, vou mantê-lo sem alteração para fidelizar minha evolução, se quiser saber mais do que sou capaz, entra em contato, vamo bater um papo :D.**
 
-  **As únicas alterações que eu fiz nas pastas que estão neste repositório foram o preenchimento dos arquivos challenges.js e challenges2.js, dentro da pasta /src, restante dos arquivos foram todos fornecidos pela trybe**
+  **As únicas alterações que eu fiz nas pastas que estão neste repositório foram o preenchimento dos arquivos challenges.js e challenges2.js, dentro da pasta /src, restante dos arquivos foram todos fornecidos pela trybe.**
